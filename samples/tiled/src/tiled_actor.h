@@ -55,8 +55,8 @@ bool is_actor_in_integral_tile(struct map_spec* map,
                                struct actor* actor);
 
 /**
- * @brief update_walk
- * This function will expects the actor to have its
+ * @brief update_actor
+ * This function will expect the actor to have its
  * intent_dir set to a certain direction and will attempt moving
  * its position in that direction for the distance elapsed_ms/actor->speed.
  * custom_code will be called
@@ -64,7 +64,7 @@ bool is_actor_in_integral_tile(struct map_spec* map,
  * @param actor
  * @param elapsed_ms
  */
-void 
+void
 update_actor(struct map_spec* map, struct actor* actor, float elapsed_ms,
                               int (*is_walkable)(struct map_spec* map,
                                                  struct actor* actor,

@@ -5,7 +5,7 @@
 
 #include "begin_prefix.h"
 /* The game drawing surface
- * A screen is you drawing surface for you to draw on
+ * A screen is your drawing surface for you to draw on
  * your game images, sprites and text.
  *
  * Your <gamestate> functions will get a screen

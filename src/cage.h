@@ -51,7 +51,7 @@
  *
  * You may provide a create function to create and set up a game state.
  * A game state will usually be a struct, holding sprites, images, fonts
- * or any other assert required to run a level, a game menu or other game
+ * or any other asset required to run a level, a game menu or other game
  * states.
  * You pass a pointer to this function when
  * you call game_loop() or game_state().

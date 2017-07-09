@@ -63,7 +63,7 @@ int write_file(struct file_spec file_spec,
                const char* buf);
 
 /**
- * Check is a file already exists.
+ * Check if a file already exists.
  * @param file_spec file specifier to check.
  *
  * @return true if the file is there or false if it isn't.

@@ -107,7 +107,7 @@ int append_event(struct timeline* timeline,
                                    float elapsed_ms,
                                    float progress));
 /**
- * Append an set of events to the timeline
+ * Append a set of events to the timeline
  * @param timeline Timeline to append the events to
  * @param nevents Number of events to append
  * @param events \ref timeline_event array
